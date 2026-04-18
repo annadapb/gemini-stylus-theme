@@ -1,0 +1,87 @@
+@-moz-document url-prefix("https://gemini.google.com") {
+[class*="markdown"],
+[class*="markdown"] h3,
+[class*="markdown"] h2,
+.gds-body-l,
+[class*="ql-container"]
+{
+    font-family: "Literata", serif !important;
+    font-weight: 450 !important;
+/* Modern Typography Features (Linter Safe) */
+    font-variant-ligatures: common-ligatures;
+    font-variant-numeric: oldstyle-nums proportional-nums; /* Old style numbers that blend into text */
+    font-kerning: normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+div[class*="code-block-decoration header-formatted"] {
+    background-color: #fbe2cd !important;
+    padding: 0px 10px !important;
+}
+
+span[class*="user-query-bubble-with-background"]:not(.edit-mode)
+{
+    border-radius: 8px !important;
+    border: 2px solid #dac6b7 !important;
+    padding: 5px 12px 5px 12px;
+    box-shadow: 0px 1px 5px #dac6b7;
+}
+
+.markdown p code,
+.markdown table code,
+.markdown h3 code
+{
+    border: 2px solid #dac6b7;
+    /*border-bottom: 3px solid #dac6b7;*/
+
+}
+:root .light-theme
+{
+    --bard-color-sidenav-background-desktop: #efeae7;
+}
+:root :where(.theme-host)
+{
+    --bard-color-synthetic--chat-window-surface: #f8f4f1;
+    
+    --gem-sys-color--surface: #f8f4f1;
+    --gem-sys-color--surface-container-low: #efeae7;
+    --gem-sys-color--surface-container: #efeae7;
+    --gem-sys-color--surface-container-high: #fbe2cd;
+    --gem-sys-shape--corner-large: 5px;
+    --gem-sys-shape--corner-extra-large-increased: 5px;
+    --gem-sys-spacing--xs: 0px;
+    --gem-sys-spacing--l: 5px;
+    --gem-sys-shape--corner-full: 5px;
+    
+    --mat-form-field-container-text-font:"Literata";
+    
+    --gem-sys-typography-markdown-type-scale--h-1-font-name:"Literata";
+    --gem-sys-typography-markdown-type-scale--h-2-font-name:"Literata";
+    --gem-sys-typography-markdown-type-scale--h-3-font-name:"Literata";
+    --gem-sys-typography-markdown-type-scale--h-4-font-name:"Literata";
+    --gem-sys-typography-markdown-type-scale--p-font-name:"Literata";
+    --gem-sys-typography-markdown-type-scale--p-strong-font-name:"Literata";
+    --gem-sys-typography-type-scale--body-l-dense-font-name:"Literata";
+    --gem-sys-typography-type-scale--body-l-font-name:"Literata";
+    --gem-sys-typography-type-scale--body-m-alt-font-name:"Literata";
+    --gem-sys-typography-type-scale--body-m-font-name:"Literata";
+    --gem-sys-typography-type-scale--body-s-font-name:"Literata";
+    --gem-sys-typography-type-scale--body-xl-font-name:"Literata";
+    --gem-sys-typography-type-scale--display-l-font-name:"Literata";
+    --gem-sys-typography-type-scale--display-m-font-name:"Literata";
+    --gem-sys-typography-type-scale--display-s-font-name:"Literata";
+    --gem-sys-typography-type-scale--headline-l-font-name:"Literata";
+    --gem-sys-typography-type-scale--headline-m-font-name:"Literata";
+    --gem-sys-typography-type-scale--headline-s-font-name:"Literata";
+    --gem-sys-typography-type-scale--label-l-font-name:"Literata";
+    --gem-sys-typography-type-scale--label-m-alt-font-name:"Literata";
+    --gem-sys-typography-type-scale--label-m-font-name:"Literata";
+    --gem-sys-typography-type-scale--label-s-font-name:"Literata";
+    --gem-sys-typography-type-scale--title-l-font-name:"Literata";
+    --gem-sys-typography-type-scale--title-m-alt-font-name:"Literata";
+    --gem-sys-typography-type-scale--title-m-font-name:"Literata";
+    --gem-sys-typography-type-scale--title-s-font-name:"Literata";
+    
+
+}
+}
