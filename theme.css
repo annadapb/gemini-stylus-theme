@@ -81,6 +81,9 @@ span[class*="user-query-bubble-with-background"]:not(.edit-mode)
     --gem-sys-typography-type-scale--title-m-alt-font-name:"Literata";
     --gem-sys-typography-type-scale--title-m-font-name:"Literata";
     --gem-sys-typography-type-scale--title-s-font-name:"Literata";
+
+    --gem-sys-typography-markdown-type-scale--p-line-height: 1.5em;
+
     
 
 }
