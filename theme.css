@@ -15,16 +15,24 @@
 }
 
 div[class*="code-block-decoration header-formatted"] {
-    background-color: #fbe2cd !important;
+    background-color: #2a2a2a !important;
     padding: 0px 10px !important;
+}
+
+
+[class*="enable-luminous-code-block"] [class*="code-block"]
+{
+    padding: 0px !important;
+    width: 100% !important;
+    margin: 16px 0 0 16px;
 }
 
 span[class*="user-query-bubble-with-background"]:not(.edit-mode)
 {
     border-radius: 8px !important;
-    border: 2px solid #dac6b7 !important;
+    border: 1.5px solid #bbb !important;
     padding: 5px 12px 5px 12px;
-    box-shadow: 0px 1px 5px #dac6b7;
+    box-shadow: 0px 2px 2px #949494;
 }
 
 .markdown p code,
@@ -32,7 +40,7 @@ span[class*="user-query-bubble-with-background"]:not(.edit-mode)
 .markdown h3 code
 {
     border: 2px solid #dac6b7;
-    /*border-bottom: 3px solid #dac6b7;*/
+    border-bottom: 3px solid #dac6b7;
 
 }
 :root .light-theme
@@ -81,10 +89,18 @@ span[class*="user-query-bubble-with-background"]:not(.edit-mode)
     --gem-sys-typography-type-scale--title-m-alt-font-name:"Literata";
     --gem-sys-typography-type-scale--title-m-font-name:"Literata";
     --gem-sys-typography-type-scale--title-s-font-name:"Literata";
-
-    --gem-sys-typography-markdown-type-scale--p-line-height: 1.5em;
+    
+    --gem-sys-typography-markdown-type-scale--p-line-height:1.5rem;
+    --gem-sys-typography-type-scale--headline-m-line-height: 1.5rem;
+    
+    --gem-sys-spacing--xl: 8px;
+    --gem-sys-spacing--xxxl: 12px;
+    
+    --gem-sys-shape--corner-extra-large-max: 8px;
+    --lumi-sys-color--code-background: #000;
+    --lumi-sys-color--surface-dim: #fbe2cd;
+    
 
     
 
-}
 }
